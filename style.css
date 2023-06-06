@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    padding-top: 8px;
 }
 
 .logo {
@@ -21,7 +21,7 @@ body {
     background-color: #1F2937;
 }
 
-.header, .hero, .information {
+.header, .hero, .information, .quote {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 48px;
@@ -110,4 +110,24 @@ a, .hero .hero-text p {
 
 .box {
     flex-basis: 200px;
+}
+
+.quote {
+    padding-top: 48px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text {
+    align-items:flex-start;
+    font-size: 36px;
+    color: #1F2947;
+    font-style: italic;
+}
+
+.quote div {
+    align-self: flex-end;
+    font-weight: bold;
 }
