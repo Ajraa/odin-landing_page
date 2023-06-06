@@ -17,11 +17,11 @@ body {
     
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1F2937;
 }
 
-.header, .hero, .information, .quote {
+.header, .hero, .information, .quote, .call{
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 48px;
@@ -91,6 +91,7 @@ a, .hero .hero-text p {
     display: flex;
     justify-content: center;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 .box-image {
@@ -130,4 +131,45 @@ a, .hero .hero-text p {
 .quote div {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.call {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    width: 60%;
+    margin: 48px auto;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 24px 0;
+    align-items: center;
+}
+
+.call .text .main-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call .text .subtext {
+    font-size: 18px;
+}
+
+.call button {
+    border: 2px solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer {
+    color: #F9FAF8;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    padding: 24px 0;
+    text-align: center;
+    justify-content: center;
 }
